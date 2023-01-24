@@ -1,0 +1,11 @@
+/* style.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* CSS personalizado */
+body {
+  font-family: 'Open Sans', sans-serif;
+}

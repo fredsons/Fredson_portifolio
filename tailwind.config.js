@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.css"],
+  content: ["./public/**/*.html", "./public/**/*.js", "./public/**/*.css"],
   theme: {
     screens: {
       tablet: "640px",
@@ -9,4 +9,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+};
+
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 };
